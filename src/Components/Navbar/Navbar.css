@@ -68,3 +68,64 @@
   background: none;
   cursor: pointer;
 }
+/* ====================== */
+.header .last_header {
+  display: flex;
+  background: #2e2d2d;
+  padding: 10px 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+.header .last_header .user_profile {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.header .last_header .user_profile .icon {
+  padding: 10px 10px;
+  background: #fff;
+  border-radius: 10px;
+}
+.header .last_header .user_profile .info {
+  margin-left: 10px;
+}
+.header .last_header .user_profile .info h2 {
+  color: #fff;
+  font-size: 18px;
+}
+.header .last_header .user_profile .info p {
+  color: #ababab;
+}
+.header .last_header .nav {
+  margin-top: 15px;
+}
+.header .last_header .nav ul {
+  display: flex;
+}
+.header .last_header .nav ul li {
+  list-style: none;
+}
+.header .last_header .nav ul li .link {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.header .last_header .nav ul li .link:hover {
+  color: #fed700;
+}
+.header .last_header .offer {
+  margin-right: 20px;
+  padding: 10px 20px;
+  background: #fed700;
+  border-radius: 10px;
+}
+.header .last_header .offer p {
+  margin-top: 8px;
+  text-transform: uppercase;
+  color: #2e2d2d;
+  font-weight: 600;
+  font-size: 14px;
+}
