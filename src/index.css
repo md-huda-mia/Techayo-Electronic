@@ -7,3 +7,8 @@
   outline-color: none;
   font-family: sans-serif;
 }
+:root {
+  --redColor: #cd1e76;
+  --yellowColor: #fed700;
+  --whiteColor: #fff;
+}

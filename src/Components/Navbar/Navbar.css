@@ -42,7 +42,7 @@
   border-bottom-right-radius: 5px;
   border: none;
   outline: none;
-  background: #cd1e76;
+  background: var(--redColor);
   color: #fff;
   width: 50px;
   cursor: pointer;
@@ -51,8 +51,8 @@
   font-weight: 600;
 }
 .header .mid_header .search_box button:hover {
-  background: #fed700;
-  color: #cd1e76;
+  background: var(--yellowColor);
+  color: var(--redColor);
 }
 .header .mid_header .user {
   display: flex;
@@ -114,12 +114,12 @@
   transition: 0.5s;
 }
 .header .last_header .nav ul li .link:hover {
-  color: #fed700;
+  color: var(--yellowColor);
 }
 .header .last_header .offer {
   margin-right: 20px;
   padding: 10px 20px;
-  background: #fed700;
+  background: var(--yellowColor);
   border-radius: 10px;
 }
 .header .last_header .offer p {
